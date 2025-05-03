@@ -1,0 +1,27 @@
+body {
+    background-color: #ffffff; /* 白色背景 */
+    color: #6a4e23; /* 棕色字體 */
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: #6a4e23; /* 棕色字體 */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8e6f3c; /* 橙色或深棕色 */
+}
+
+button, .btn {
+    background-color: #6a4e23; /* 棕色背景 */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: #8e6f3c; /* 橙色或深棕色 */
+}
