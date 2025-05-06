@@ -25,7 +25,7 @@ def faq():
     return render_template('faq.html')
 
 # cookies聲明
-@app.route('/cookies')
+@app.route('/activity')
 def cookies():
     return render_template('activity.html')
 
