@@ -1,0 +1,332 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>點心魔法師,手工囍餅,彌月禮盒,手工餅乾</title>
+<meta name="description" content="透過每一樣食材的拼湊組合 點心魔法師反覆的試驗和紀錄 製作出食材最真實的味道 從經典的果乾餅乾系列，到茶餅乾的設計 再到咖啡、巧克力、起士餅乾...等。 您可以在點心魔法師挑到獨一無二 屬於自己個性的手工餅乾 『原味與純粹』 是點心魔法師直接認識食材的方式 在此獻給您幸福滋味的手工餅乾" />
+<meta name="keywords" content="點心魔法師,手工餅乾,囍餅,彌月,禮盒,婚禮,OWL,手做甜點,東海甜點,台中名產,喜餅,手工喜餅,點心魔法師手工喜餅,點心魔法師手工餅乾,台中手工餅乾,台中喜餅,結婚喜餅,台中甜點,手作甜點,寶寶,女性,新娘,新郎,結婚,伴手禮,台中,台中市,新娘秘書,婚紗攝影,適婚年齡,喜事,台中美食,台中甜點推薦,台中必買,手工喜餅推薦,喜餅推薦,台中手工喜餅,好吃手工喜餅,彌月餅乾,彌月推薦,婚禮小物,台東伴手禮,曲奇餅,伴手禮,台東成功" />
+<meta property="og:image" content=""/>
+<meta property="og:title" content="點心魔法師"/>
+<meta property="og:type" content="website"/>
+<script>
+	var isMobile = false;
+	var isTablet =false;
+	var isAndroidOS =false;
+	var isiOS =false;
+	var isSafari =false;
+</script>	
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=3.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><link rel="stylesheet" href="css/owl.css" /><link rel="stylesheet" href="css/home.css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/controls.js"></script>
+    <script>
+        $(function ()
+        {
+            var memberID = "";
+            $(".addCart").each(function ()
+            {
+                $(this).click(function ()
+                {
+                    if (memberID == "") {
+                        alert("請先登入會員");
+						location.href='login.aspx';
+                        return false;
+                    }
+                    else
+                    {
+                        $.ajax({
+                            type: 'POST',
+                            url: 'order_ajax.aspx',
+                            data: {
+                                num: 1,
+                                list: "c3",
+                                state : "add",
+                                id : $(this).find("#val").val()
+                            },
+                            success: function (data) {
+                                alert(data);
+                                window.location.reload();
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+
+                                alert("Ajax發生錯誤..!!");
+                            }
+                        });
+                    }
+                });
+            });
+        });
+        
+    </script>
+    <style>
+        .more1{
+            text-align: center;
+            
+        }
+
+        .more1 a{
+            background:#645250;
+            color:#fff;
+        }
+       </style>
+<title>
+
+</title></head>
+<body>
+    <form method="post" action="./cookies.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="41AD8B22" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+        <div>
+            <div class="outerWrap">
+                <!--outerWrap-->
+                
+
+<!--mobile menu-->
+<div class="m_menu b-box clearfix"><!--m_menu-->
+    <div class="mask"></div>
+    <div class="controlBox clearfix"><!--controlBox-->    
+        <a class="main"><i class="fa fa-reorder"></i></a>
+        <div class="right"><!--right-->
+            <div class="btn_cart"><a href="shopping_list.aspx" class="cartToggle"><i class="fa fa-shopping-cart"></i><b class="m_cartCount buycar_count">0</b></a></div>
+			<a class="orderToggle" href="member.aspx" ><i class="fa fa-book"></i></a>
+        </div><!--rightBox end-->       
+        <div class="m_logo"><a href="index.aspx"><img src="images/logo.png"></a></div>
+    </div><!--controlBox end-->
+    <div class="hideBox"><!--hideBox-->        
+        <!--手機板搜尋商品-->
+        <div class="searchBox_m"><!--searchBox-->
+            <input name="keyword_mobile" type="text" class="b-box" id="keyword_mobile" placeholder="產品搜尋" value="">
+            <a onclick="if($('#keyword_mobile').val()==''){ alert('請輸入關鍵字');}else{location.href=encodeURI('search.aspx?keyword=' + $('#keyword_mobile').val());}"><i class="fa fa-search"></i></a>
+        </div><!--searchBox end-->
+       
+        <p class="sp">CONTACT</p>
+        <div class="loginBox_m"><!--loginBox-->
+            <a href="join.aspx" class="loginToggle">會員註冊 / <a href="login.aspx" class="loginToggle">登入</a>
+            
+                    </div><!--loginBox end-->
+        <p class="sp sp_menu">MENU</p>        
+        <div class="mfun"><!--mfun-->
+                        <a href="https://www.facebook.com/desserttw/"  target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="http://line.me/ti/p/%40udi5609n" target="_blank" ><i><img src="images/line.png" width="19" height="17"></i></a>
+                        <a href="https://www.instagram.com/dessertnecromancer/?hl=zh-tw" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="mailto:necromancer1701813@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </div><!--mfun end-->       
+    </div><!--hideBox end-->
+</div><!--m_menu end-->
+
+
+ <header><!--header-->
+    	<div class="wrap b-box clearfix"><!--wrap-->
+                <h1><a href="index.aspx" title="點心魔法師">點心魔法師</a></h1>
+                <div class="rightBox b-box"><!--rightBox-->
+                <i class="fa fa-facebook"><a href="https://www.facebook.com/desserttw/" target="_blank" > 粉絲團</a></i>
+                	<div class="loginBox"><!--loginBox-->
+                        <a href="login.aspx" class="loginToggle"><i class="fa fa-user" aria-hidden="true"></i> 會員登入</a>
+                      </div><!--loginBox end-->
+                	<div class="cartBox"><!-- cartBox -->
+                    	<a href="shopping_list.aspx" class="cartToggle exclude"><i class="fa fa-shopping-cart" aria-hidden="true"></i>購物車 （<b class="num buycar_count">0</b>）</a>
+                    </div><!-- cartBox end -->
+                    <div class="searchBox"><!--searchBox-->
+                        <input name="keyword" type="text" class="b-box" id="keyword" placeholder="產品搜尋" value="">
+                        <a onclick="if($('#keyword').val()==''){ alert('請輸入關鍵字');}else{location.href=encodeURI('search.aspx?keyword=' + $('#keyword').val());}"><i class="fa fa-search"></i></a>
+                    </div><!--searchBox end-->
+                </div><!--rightBox end-->
+            <nav class="menuBox"><!--menuBox-->
+            	<ul class="menu cleafix"><!--menu-->
+                    <li class="dropDown"><a href="news.aspx"><span>最新消息</span><b>News</b></a>
+                     <div class="submenu">
+                         <a href="news.aspx?getId=9EF2A23C286D0DF5">活動情報                                                                                                                                                                                                    </a>
+                    </div>
+                        </li>
+                    <!-- 2023/1/6 暫時關閉 -->
+                    
+                    
+                    <li class="dropDown"><a href="cookies.aspx"><span>活動專區</span><b>活動專區</b></a>
+                    <div class="submenu">
+                        <a href="cookies.aspx?getId=9EF2A23C286D0DF5">活動專區                                                                                                                                                                                                    </a>
+                    </div>
+                    </li>
+                       
+                    
+                    <li class="dropDown"><a href="dessert.aspx"><span>甜點選購</span><b>Dessert</b></a>
+                     <div class="submenu">
+                         <a href="dessert.aspx?getId=6102839F3F21BC4B">手工餅乾                                                                                                                                                                                                    </a>
+                    </div>
+                    </li>
+                    <!--<li><a href="booking.aspx"><span>預約品嚐</span><b>Booking</b></a></li>-->
+                    <li><a href="member.aspx"><span>會員專區</span><b>Mebmers</b></a></li>
+                    <li><a href="faq.aspx"><span>訂購需知</span><b>Q & A</b></a></li>
+                    
+                    <!-- 多加一欄資料 下面標題會蓋住 -->
+                    <!--<li class="dropDown"><a href="booking.aspx"><span>我要預約專人服務</span><b>Service</b></a></li>-->
+
+                </ul><!--menu end-->
+            </nav><!--menuBox end-->
+        </div><!--wrap end-->
+    </header><!--header end-->  
+    
+    
+
+
+                <!--banner-->
+                <div class="bannerArea ins">
+                    <!--bannnerArea-->
+                    <div class="wrap b-box clearfix">
+                        <!--wrap-->
+                        <div class="bannerBox">
+                            <!--bannerBox-->
+                            <ul id="banner">
+                                <li style="background-image: url(images/insbg.jpg);">
+                                    <img src="images/insbg.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                        <!--bannerBox end-->
+                        <div class="bannerText insText">
+                            <h2>活動專區</h2>
+                            <em> </em>
+                        </div>
+                    </div>
+                    <!--wrap end-->
+                </div>
+                <!--bannerArea end-->
+
+
+                <div class="mainArea">
+                    <div class="wrap b-box clearfix">
+                        <!--wrap-->
+                        <div class="contentBox clearfix">
+                            <!--contentBox-->
+                            <div class="leftBox">
+                                <!--leftBox-->
+
+                                <div class="side_menu">
+                                    <!-- side_menu -->
+                                    <h3 class="sectionTitle"><strong>活動專區</strong></h3>
+                                    <ul>
+                                        <li><a href="cookies.aspx?getId=9EF2A23C286D0DF5" >活動專區</a></li>
+                                    </ul>
+                                </div>
+                                <!-- side_menu end -->
+                            </div>
+                            <!--leftBox-->
+
+                            <div class="rightBox">
+                                <!--rightBox-->
+                                <div class="catalogArea">
+                                    <!--catalogArea-->
+
+                                    <div class="titleBox clearfix">
+                                        <!--titleBox-->
+                                        <div class="bread"><i class="fa fa-home"></i><a href="index.aspx">首頁</a> > 活動專區</div>
+                                    </div>
+                                    <!--titleBox end-->
+                                    
+				                    <ul class="clearfix">
+									
+                                       
+									
+                                    </ul>
+                                   
+
+                                    <div class="pageBox">
+                                        <!--pageBox-->
+                                        
+                                    </div>
+                                    <!--pageBox end-->
+
+                                </div>
+                                <!--right end-->
+                                <div class="CLEAR"></div>
+                            </div>
+                            <!--contentBox end-->
+                        </div>
+                        <!--wrap end-->
+                    </div>
+                    <!--catalogArea end-->
+                </div>
+                <!--mainArea end-->
+
+
+
+                
+
+<footer><!--footer-->
+		<div class="wrap clearfix"><!--wrap-->
+			<div class="topBox">
+        <div class="infoBox">
+            <div class="infoTitle"><span>地址<i class="icon_map"></i></span><address><a href="https://goo.gl/maps/vgCpXvq5gnZ8Yzpi8" target="_blank">台東縣成功鎮成廣路59-2號</a></address></div>
+            <div class="infoTitle"><span>電話<i class="icon_phone"></i></span><a href="tel:089871908">089871908</a>/<a href="tel:"></a></div>
+            <div class="infoTitle"><span>信箱<i class="icon_time"></i></span><a href="mailto:dnservice1701813@gmail.com">dnservice1701813@gmail.com</a></div>
+                    
+          
+            
+    </div>
+</div>
+
+<div class="copyrightBox bottomBox clearfix ">
+Copyright © 2019點心魔法師股份有限公司 統編27872555.<!--All Rights Reserved. <a href="https://www.watchit.com.tw/" target="_blank" >網頁設計:宇迅科技</a>-->
+</div> 
+</div><!--wrap end-->        
+</footer><!--footer end-->    
+<a href="javascript:;" class="goTop" >GoTop</a>    
+
+<ul class="mquickBar">
+		<li><a href="https://www.facebook.com/desserttw/" target="_blank"><img src="images/icon1.svg" alt=""/><span>Facebook</span></a></li>
+		<li><a href="http://line.me/ti/p/%40udi5609n" target="_blank"><img src="images/icon2.svg" alt=""/><span>Line</span></a></li>
+        <li><a href="member.aspx" ><img src="images/icon4.svg" alt=""/><span>會員專區</span></a></li>
+         <li><a href="#" ><img src="images/icon_top.svg" alt=""/><span>TOP</span></a></li>
+	</ul><!--mquickBar-->        
+    
+     <script>
+$(function(){
+	$(window).scroll(function(){
+		var scrolltop = $(window).scrollTop();
+		var banner_H = $('.bannerArea').height();
+		if(scrolltop > banner_H-200){
+			$('header').addClass('shrink');	
+		}else{
+			$('header').removeClass('shrink');		
+		}
+	});
+});
+</script>
+
+            </div>
+            <!--outerWrap END-->
+
+
+            <link rel="stylesheet" href="slick-slider/slick-theme.css"/>
+            <link rel="stylesheet" href="slick-slider/slick.css"/>
+            <script src="slick-slider/slick.min.js"></script>
+            <script>
+                $(function () {
+                    $('#banner').slick({
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                        prevArrow: $('.arrow_prev'),
+                        nextArrow: $('.arrow_next'),
+                        fade: true,
+                        autoplay: true,
+                        autoplaySpeed: 4000,
+                        cssEase: 'ease-in-out'
+                    });
+                });
+            </script>
+
+
+            <script type="text/javascript" src="js/manage.js"></script>
+        </div>
+    </form>
+</body>
+</html>
