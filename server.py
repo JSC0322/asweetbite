@@ -27,7 +27,7 @@ def faq():
 # cookies聲明
 @app.route('/cookies')
 def cookies():
-    return render_template('cookies.html')
+    return render_template('activity.html')
 
 # 會員登入頁
 @app.route('/login', methods=['GET', 'POST'])
